@@ -6,3 +6,6 @@ lets get started
 
 time to use git again, but first need to refresh sweet memories about it. alas human memory is a bitch, like gravity.
 
+----
+editing file locally, without checking it out(git add / stage term)
+NOTE: git also has checkout, which in terms of p4 is 'revert'
