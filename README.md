@@ -12,3 +12,5 @@ NOTE: git also has checkout, which is actually not a revert in p4, it is more li
 
 
 this change is done without Internet connection. 
+
+another change of the file
