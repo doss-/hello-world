@@ -1,4 +1,13 @@
 # hello-world
+--------
+TODO: add some nice tool to git difftool
+TODO: add short bashrc aliases for 
+	git status -s
+	git diff<tool> --staged
+-------
+
+
+
 
 i've inserted this line just to create another commit before pull request it to master
 
@@ -14,4 +23,9 @@ NOTE: git also has checkout, which is actually not a revert in p4, it is more li
 this change is done without Internet connection. 
 
 another change of the file
+
 so if change a file, then add it onto stage, then edit again - only first changes will be applied, another modification will be visible for git but not staged for commit
+
+
+---
+i need double new line to make a 1 new line on git hub web interface, i hate it.
