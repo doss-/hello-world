@@ -14,3 +14,4 @@ NOTE: git also has checkout, which is actually not a revert in p4, it is more li
 this change is done without Internet connection. 
 
 another change of the file
+so if change a file, then add it onto stage, then edit again - only first changes will be applied, another modification will be visible for git but not staged for commit

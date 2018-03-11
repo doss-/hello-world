@@ -3,5 +3,5 @@
 hello=Hello
 world=World
 
+echo 'about to execute: $hello $world'
 echo "$hello $world"
-
