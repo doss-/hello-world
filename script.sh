@@ -8,3 +8,5 @@ echo "$hello $world"
 
 
 echo "lets concatenate $hello$world"
+
+echo "now file is called $0"
