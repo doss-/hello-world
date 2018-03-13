@@ -2,11 +2,11 @@
 --------
 TODO: add some nice tool to git difftool
 TODO: add short git aliases for 
-	git status -s
-	git diff<tool> --staged
-	git log <with some formatted output>
-	git checkout -- <file> - to revert edited
-	git reset HEAD <file>  - to revert staged
+	+git status -s
+	+git diff<tool> --staged
+	-git log <with some formatted output>
+	+git checkout -- <file> - to revert edited
+	+git reset HEAD <file>  - to revert staged
 -------
 
 
