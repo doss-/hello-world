@@ -33,3 +33,11 @@ so if change a file, then add it onto stage, then edit again - only first change
 i need double new line to make a 1 new line on git hub web interface, i hate it.
 editing it to see how git commit' status display will show it
 
+---
+
+so you telling me that staging already stores the file into repo, so repo is in .git dir, so this should change its size after i'll add some files onto stage? it could, but not necessarily would
+
+okay it works! before stage
+size of .git folder is 648
+after stage
+size of .git folder is 664
