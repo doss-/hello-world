@@ -1,9 +1,12 @@
 # hello-world
 --------
 TODO: add some nice tool to git difftool
-TODO: add short bashrc aliases for 
+TODO: add short git aliases for 
 	git status -s
 	git diff<tool> --staged
+	git log <with some formatted output>
+	git checkout -- <file> - to revert edited
+	git reset HEAD <file>  - to revert staged
 -------
 
 
@@ -26,8 +29,7 @@ another change of the file
 
 so if change a file, then add it onto stage, then edit again - only first changes will be applied, another modification will be visible for git but not staged for commit
 
-
 ---
 i need double new line to make a 1 new line on git hub web interface, i hate it.
-
 editing it to see how git commit' status display will show it
+
