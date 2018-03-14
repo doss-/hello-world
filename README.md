@@ -35,6 +35,10 @@ editing it to see how git commit' status display will show it
 
 ---
 
+this is some random change. i hope it wontn conflict with Testing branch, for now i dont want those conflicts to be aronund. yet.
+
+---
+
 so you telling me that staging already stores the file into repo, so repo is in .git dir, so this should change its size after i'll add some files onto stage? it could, but not necessarily would
 
 okay it works! before stage
