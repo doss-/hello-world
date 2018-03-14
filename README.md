@@ -41,3 +41,10 @@ okay it works! before stage
 size of .git folder is 648
 after stage
 size of .git folder is 664
+
+after stage of things above it become 672K
+
+and after commit it got even bigger
+size of .git folder is 684
+
+nothing changes after push tho
