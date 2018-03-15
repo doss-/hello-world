@@ -14,3 +14,5 @@ echo "now file is called $0"
 size=$( du .git -sh )
 
 echo "size of .git folder is ${size:0:3}"
+
+echo 'hotfix stuff'
