@@ -52,3 +52,11 @@ and after commit it got even bigger
 size of .git folder is 684
 
 nothing changes after push tho
+
+---------------
+linux version determination:
+
+uname -a or -i
+/etc/lsb_release file
+/etc/lsb-release file
+/etc/os-version file
