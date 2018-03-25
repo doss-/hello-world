@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-		sh 'apk add ruby'
-		sh 'apk info -e ruby'
+		sh 'pwd'
+		sh './test.sh'
                 sh 'ruby --version'
             }
         }
