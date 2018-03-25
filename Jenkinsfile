@@ -15,13 +15,13 @@ pipeline {
     }
     post {
 	always {
-		echo this runs always
+		echo "this runs always"
 	}
 	success {
-		echo this runs on success
+		echo 'this runs on success'
 	}
 	failure {
-		echo this runs on failuer
+		echo 'this runs on failuer'
 	}
 	unstable {
 		echo 'This will run only if the run was marked as unstable'
