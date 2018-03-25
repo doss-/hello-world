@@ -1,4 +1,3 @@
-#!/usr/bin/env ruby
 
 class MegaGreeter
  attr_accessor :names
@@ -14,11 +13,11 @@ class MegaGreeter
    # as per ruby is not typed language, we need to ensure what type of object we have before iteract with it
    # in this case - if it supports method "each" means it is iterable collection, so we can iterate 
    @names.each do |name|
-    puts "Hello #{name.capitalize}!"
+    puts "Hello #{name.to_s.capitalize}!"
    end
   else
    #if here, means @names is not a collection, presumably a string
-   puts "Hello #{@names.capitalize}!"
+   puts "Hello #{@names.to_s.capitalize}!"
   end
  end
 
