@@ -10,6 +10,7 @@ pipeline {
                 	ruby --version
 			echo completed multiline step
 		'''
+		sh 'ruby ri20min.rb'
             }
         }
     }
