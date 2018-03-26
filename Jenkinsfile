@@ -4,9 +4,14 @@ pipeline {
     stages {
         stage('build') {
             steps {
+		script {
+			sh './test.sh'
+		}
+		catch (err) {
+			echo err
+		}
 		sh '''
 			echo started multiline step
-			./test.sh
                 	ruby --version
 			echo completed multiline step
 		'''

@@ -18,7 +18,14 @@ rspecCheck=$( gem list --local | grep rspec )
 if [ -z "$rspecCheck" ]
 then
 	echo "RSpec not found"
+	gem install rdoc
 	gem install rspec -v 3.4.0
 else
 	echo "RSpec is installed"
 fi
+
+#update ruby gems to latest version. 
+#it does not help with rdoc 'reset' missing error. probably some Alpine linux issue
+#apk add ruby-json
+#gem install rubygems-update
+#gem update --system
