@@ -5,10 +5,11 @@ pipeline {
         stage('build') {
             steps {
 		script {
+		 try {
 			sh './test.sh'
-		}
-		catch (err) {
+		 } catch (err) {
 			echo err
+		 }
 		}
 		sh '''
 			echo started multiline step
