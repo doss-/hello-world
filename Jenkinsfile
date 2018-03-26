@@ -13,6 +13,11 @@ pipeline {
 		sh 'ruby ri20min.rb'
             }
         }
+        stage('tests') {
+	   steps {
+		sh 'rspec ri20min_spec.rb'
+	   }
+	}
     }
     post {
 	always {
