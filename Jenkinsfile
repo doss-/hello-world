@@ -21,13 +21,14 @@ pipeline {
         }
         stage('tests') {
 	   steps {
-		sh 'rspec ri20min_spec.rb'
+		sh 'rspec --format RspecJunitFormatter --out rspec.xml ri20min_spec.rb'
 	   }
 	}
     }
     post {
 	always {
 		echo "this runs always"
+		junit 'rspec.xml'
 	}
 	success {
 		echo 'this runs on success'

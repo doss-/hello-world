@@ -20,6 +20,7 @@ then
 	echo "RSpec not found"
 	gem install rdoc
 	gem install rspec -v 3.4.0
+	gem install rspec_junit_formatter
 else
 	echo "RSpec is installed"
 fi
@@ -29,3 +30,8 @@ fi
 #apk add ruby-json
 #gem install rubygems-update
 #gem update --system
+
+#junit formatting for jenkins from rspec
+#gem install rspec_junit_formatter
+# call tests to be saved into xml
+#rspec --format RspecJunitFormatter --out rspec.xml ri20min_spec.rb
